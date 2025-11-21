@@ -11,6 +11,7 @@ on:
       - "config/*.conf"
       - "config/west.yml"
       - "boards/*/*/*.keymap"
+      - "boards/shields/silakka54/**"
 
 jobs:
   build:
