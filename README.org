@@ -3,5 +3,5 @@
 ** Silakka54
 [[file:keymap-drawer/silakka54.svg]]
 
-** Lily58
-[[file:keymap-drawer/lily58.svg]]
+Converted from the previous Lily58 setup to the Silakka54 split layout with new shields,
+keymap, and keymap-drawer config.
