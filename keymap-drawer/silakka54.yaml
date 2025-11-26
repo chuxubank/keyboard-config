@@ -54,7 +54,7 @@ layers:
   - Function
   - RET
   - SPACE
-  - {t: NavKeypad, h: Symbol}
+  - {t: NavPad, h: Symbol}
   Function:
   - BT CLR
   - {t: BT, h: '0'}
@@ -62,9 +62,9 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BRI AUTO
+  - BRI DN
+  - BRI UP
   - VOL DN
   - VOL UP
   - MUTE
@@ -165,7 +165,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  NavKeypad:
+  NavPad:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -208,7 +208,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP 0
   - KP 1
   - KP 2
   - KP 3
@@ -219,7 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP DOT
-  - KP 0
+  - {t: ▽, type: trans}
   placeholder:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
