@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - '-'
-  - TAB
+  - ''
   - Q
   - W
   - E
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - BSPC
+  - ''
   - LCTRL
   - A
   - S
@@ -123,7 +123,7 @@ layers:
   - '-'
   - '='
   - \
-  - CAPS
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -134,7 +134,7 @@ layers:
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - DEL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
