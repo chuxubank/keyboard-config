@@ -1,4 +1,9 @@
 * Misaka's keyboard config
+#+ATTR_HTML: :title Build ZMK firmware
+[[https://github.com/chuxubank/keyboard-config/actions/workflows/build.yml][https://github.com/chuxubank/keyboard-config/actions/workflows/build.yml/badge.svg]]
+
+#+ATTR_HTML: :title Draw ZMK keymaps
+[[https://github.com/chuxubank/keyboard-config/actions/workflows/draw-keymaps.yml][https://github.com/chuxubank/keyboard-config/actions/workflows/draw-keymaps.yml/badge.svg]]
 
 ** Silakka54
 [[file:keymap-drawer/silakka54.svg]]
