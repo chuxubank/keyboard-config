@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - BSPC
+  - {t: BSPC, s: DEL}
   - LCTRL
   - A
   - S
@@ -53,7 +53,7 @@ layers:
   - LGUI
   - Function
   - RET
-  - SPACE
+  - {t: SPACE, h: RGUI}
   - {t: NavPad, h: Symbol}
   Function:
   - BT CLR
