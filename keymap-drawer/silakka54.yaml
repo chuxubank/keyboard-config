@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - '-'
-  - ''
+  - {t: TAB, s: CAPS}
   - Q
   - W
   - E
@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - ''
+  - BSPC
   - LCTRL
   - A
   - S
