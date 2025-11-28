@@ -9,12 +9,12 @@
 
 #define MO_TOG(layer) &mo_tog layer layer
 
+&gresc {
+    keep-mods = <(MOD_LGUI|MOD_RSFT)>;
+};
 
 / {
     behaviors {
-        &gresc {
-            keep-mods = <(MOD_LGUI|MOD_RSFT)>;
-        };
         bmt: balanced_mod_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
