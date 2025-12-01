@@ -57,11 +57,11 @@ layers:
   - {t: NavPad, h: Symbol}
   Function:
   - BT CLR
-  - '&bt_tog BT_DISC 0 BT_SEL 0'
-  - '&bt_tog BT_DISC 1 BT_SEL 1'
-  - '&bt_tog BT_DISC 2 BT_SEL 2'
-  - '&bt_tog BT_DISC 3 BT_SEL 3'
-  - '&bt_tog BT_DISC 4 BT_SEL 4'
+  - {t: '&bt_s', h: '&bt_d'}
+  - {t: '&bt_s 1', h: '&bt_d 1'}
+  - {t: '&bt_s 2', h: '&bt_d 2'}
+  - {t: '&bt_s 3', h: '&bt_d 3'}
+  - {t: '&bt_s 4', h: '&bt_d 4'}
   - BRI AUTO
   - BRI DN
   - BRI UP

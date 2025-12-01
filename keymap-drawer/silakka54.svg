@@ -364,33 +364,36 @@ path.combo {
 </g>
 <g transform="translate(84, 42)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;bt_tog</tspan><tspan x="0" dy="1.2em">BT_DISC</tspan><tspan x="0" dy="1.2em">…</tspan>
-</text>
+<text x="0" y="0" class="key tap">&amp;bt_s</text>
+<text x="0" y="24" class="key hold">&amp;bt_d</text>
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;bt_tog</tspan><tspan x="0" dy="1.2em">BT_DISC</tspan><tspan x="0" dy="1.2em">…</tspan>
+<tspan x="0" dy="-1.2em">&amp;bt_s</tspan><tspan x="0" dy="1.2em">1</tspan>
 </text>
+<text x="0" y="24" class="key hold">&amp;bt_d 1</text>
 </g>
 <g transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;bt_tog</tspan><tspan x="0" dy="1.2em">BT_DISC</tspan><tspan x="0" dy="1.2em">…</tspan>
+<tspan x="0" dy="-1.2em">&amp;bt_s</tspan><tspan x="0" dy="1.2em">2</tspan>
 </text>
+<text x="0" y="24" class="key hold">&amp;bt_d 2</text>
 </g>
 <g transform="translate(252, 35)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;bt_tog</tspan><tspan x="0" dy="1.2em">BT_DISC</tspan><tspan x="0" dy="1.2em">…</tspan>
+<tspan x="0" dy="-1.2em">&amp;bt_s</tspan><tspan x="0" dy="1.2em">3</tspan>
 </text>
+<text x="0" y="24" class="key hold">&amp;bt_d 3</text>
 </g>
 <g transform="translate(308, 42)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">&amp;bt_tog</tspan><tspan x="0" dy="1.2em">BT_DISC</tspan><tspan x="0" dy="1.2em">…</tspan>
+<tspan x="0" dy="-1.2em">&amp;bt_s</tspan><tspan x="0" dy="1.2em">4</tspan>
 </text>
+<text x="0" y="24" class="key hold">&amp;bt_d 4</text>
 </g>
 <g transform="translate(476, 42)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

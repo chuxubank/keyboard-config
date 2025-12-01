@@ -17,12 +17,12 @@
 / {
     macros {
         bt_s: bt_select {
-            compatible = "zmk,behavior-macro";
+            compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings= <&macro_param_1to2>, <&bt BT_SEL MACRO_PLACEHOLDER>;
         };
         bt_d: bt_disconnect {
-            compatible = "zmk,behavior-macro";
+            compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings= <&macro_param_1to2>, <&bt BT_DISC MACRO_PLACEHOLDER>;
         };
