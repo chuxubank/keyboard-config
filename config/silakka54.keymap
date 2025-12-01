@@ -8,13 +8,25 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 #define MO_TOG(layer) &mo_tog layer layer
-#define BT_TOG(number) &bt_tog BT_DISC number BT_SEL number
+#define BT_TOG(number) &bt_tog number number
 
 &gresc {
     keep-mods = <(MOD_LGUI|MOD_RSFT)>;
 };
 
 / {
+    macros {
+        bt_s: bt_select {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <1>;
+            bindings= <&macro_param_1to2>, <&bt BT_SEL MACRO_PLACEHOLDER>;
+        };
+        bt_d: bt_disconnect {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <1>;
+            bindings= <&macro_param_1to2>, <&bt BT_DISC MACRO_PLACEHOLDER>;
+        };
+    };
     behaviors {
         bmt: balanced_mod_tap {
             compatible = "zmk,behavior-hold-tap";
@@ -48,7 +60,7 @@
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <200>;
-            bindings = <&bt>, <&bt>;
+            bindings = <&bt_d>, <&bt_s>;
         };
     };
     keymap {
