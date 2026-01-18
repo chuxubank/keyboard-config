@@ -52,9 +52,9 @@ layers:
   - LALT
   - LGUI
   - Function
-  - RET
+  - {t: RET, h: Symbol}
   - {t: SPACE, h: RGUI}
-  - {t: NavPad, h: Symbol}
+  - {t: NavPad, h: NavPad}
   Function:
   - BT CLR
   - {t: '&bt_s', h: '&bt_d'}
@@ -162,9 +162,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   NavPad:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -219,7 +219,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP DOT
-  - {t: ▽, type: trans}
+  - {type: held}
   placeholder:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
