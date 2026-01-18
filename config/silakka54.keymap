@@ -98,11 +98,11 @@
         symbol_layer {
             display-name = "Symbol";
             bindings = <
-&kp GRAVE &trans &trans &trans &trans &trans    &trans &trans &trans &kp MINUS &kp EQUAL &kp BSLH
-&trans    &trans &trans &trans &trans &trans    &trans &trans &trans &kp LBKT  &kp RBKT  &trans
-&trans    &trans &trans &trans &trans &trans    &trans &trans &trans &kp LBRC  &kp RBRC  &trans
-&trans    &trans &trans &trans &trans &trans    &trans &trans &trans &trans    &trans    &trans
-                        &trans &trans &trans    &trans &trans &trans
+&kp GRAVE &trans &trans   &trans   &trans   &trans        &trans &trans    &trans    &trans   &trans &trans
+&trans    &trans &kp LBKT &kp RBKT &trans   &trans        &trans &kp UNDER &kp PLUS  &kp PIPE &trans &trans
+&trans    &trans &kp LBRC &kp RBRC &kp LPAR &kp RPAR      &trans &kp MINUS &kp EQUAL &kp BSLH &trans &trans
+&trans    &trans &trans   &trans   &trans   &trans        &trans &trans    &trans    &trans   &trans &trans
+                          &trans   &trans   &trans        &trans &trans    &trans
             >;
         };
 
