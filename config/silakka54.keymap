@@ -11,6 +11,7 @@
 #define BT_TOG(number) &bt_tog number number
 
 &gresc {
+    mods = <(MOD_LGUI|MOD_RSFT)>;
     keep-mods = <(MOD_LGUI|MOD_RSFT)>;
 };
 
