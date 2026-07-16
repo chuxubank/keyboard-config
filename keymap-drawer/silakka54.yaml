@@ -65,9 +65,9 @@ layers:
   - BRI AUTO
   - BRI DN
   - BRI UP
-  - VOL DN
-  - VOL UP
-  - MUTE
+  - PREV
+  - NEXT
+  - PP
   - EP ON
   - F1
   - F2
@@ -79,7 +79,7 @@ layers:
   - F8
   - F9
   - F10
-  - PREV
+  - VOL UP
   - EP OFF
   - F11
   - F12
@@ -91,7 +91,7 @@ layers:
   - F18
   - F19
   - F20
-  - NEXT
+  - VOL DN
   - EP TOG
   - F21
   - F22
@@ -103,7 +103,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PP
+  - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
