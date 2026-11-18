@@ -1,0 +1,37 @@
+name: Release ZMK firmware
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3.0
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
+    steps:
+      - name: Download firmware
+        uses: actions/download-artifact@v4
+        with:
+          name: firmware
+          path: firmware
+
+      - name: Normalize asset names
+        run: |
+          find firmware -name '*.uf2' -print0 | while IFS= read -r -d '' file; do
+            dir=$(dirname "$file")
+            base=$(basename "$file")
+            mv "$file" "$dir/${base// /.}"
+          done
+
+      - name: Publish release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: firmware/*
+          generate_release_notes: true
+          fail_on_unmatched_files: true
