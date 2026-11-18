@@ -56,7 +56,7 @@ layers:
   - {t: SPACE, h: RGUI}
   - {t: NavPad, h: NavPad}
   Function:
-  - BT CLR
+  - OUT TOG
   - {t: '&bt_s', h: '&bt_d'}
   - {t: '&bt_s 1', h: '&bt_d 1'}
   - {t: '&bt_s 2', h: '&bt_d 2'}
@@ -97,7 +97,7 @@ layers:
   - F22
   - F23
   - F24
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
